@@ -1,4 +1,5 @@
 {
+  "homepage": "https://tinkerled.github.io/portfolio/",
   "name": "portfolio",
   "version": "0.0.0",
   "scripts": {
@@ -21,6 +22,7 @@
     "@angular/router": "~8.2.9",
     "boostrap": "^2.0.0",
     "bootstrap": "^4.4.1",
+    "ghpages": "0.0.10",
     "jquery": "^3.4.1",
     "ngx-bootstrap": "^5.2.0",
     "ngx-page-scroll": "^7.0.0",
