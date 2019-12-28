@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<router-outlet></router-outlet>\r\n<!-- <nav class=\"navbar container\">\r\n  <ul class=\"navbar-nav mr-auto\">\r\n    <li class=\"nav-item\"><a class=\"nav-link\" [routerLink]=\"['/']\">Home</a></li>\r\n\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link\" [routerLink]=\"['/mtlaquariumsociety']\">Fish Club</a>\r\n    </li>\r\n  </ul>\r\n</nav> -->\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<p>whats this shit?</p>\r\n<router-outlet></router-outlet>\r\n<!-- <nav class=\"navbar container\">\r\n  <ul class=\"navbar-nav mr-auto\">\r\n    <li class=\"nav-item\"><a class=\"nav-link\" [routerLink]=\"['/']\">Home</a></li>\r\n\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link\" [routerLink]=\"['/mtlaquariumsociety']\">Fish Club</a>\r\n    </li>\r\n  </ul>\r\n</nav> -->\r\n");
 
 /***/ }),
 
