@@ -7,12 +7,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { MtlAquariumSocietyComponent } from './mtl-aquarium-society/mtl-aquarium-society.component';
+import { CvComponent } from './portfolio/cv/cv.component';
+import { ProjectsComponent } from './portfolio/projects/projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PortfolioComponent,
-    MtlAquariumSocietyComponent
+    MtlAquariumSocietyComponent,
+    CvComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
