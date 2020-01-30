@@ -1,17 +1,43 @@
-<style>
-  .main-body {
-    width: 70%;
-    margin: 0 auto;
-  }
-</style>
-<div class="main-body">
-  lucas nadeau-guillemette
-  <a [routerLink]="['/portfolio/cv']">cv</a> |
-  <a [routerLink]="['/portfolio/projets']">projets</a>
-  <router-outlet></router-outlet>
+<div [@routeAnimations]="prepareRoute(outlet)" class="main-body">
+  <nav>
+    <p>ma carte</p>
+    <p>
+      <a [routerLink]="['/portfolio']">accueil</a> |
+      <a [routerLink]="['/portfolio/cv']">cv</a> |
+      <a [routerLink]="['/portfolio/projets']">projets</a>
+    </p>
+  </nav>
 
-  <!-- <div
+  <div class="spacer"></div>
+  <div class="content">
+    <router-outlet #outlet="outlet"></router-outlet>
+  </div>
+  <div class="contact">
+    linkedin, ig, phone, email
+    <div>
+      Icons made by
+      <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
+        >Freepik</a
+      >
+      ,
+      <a
+        href="https://www.flaticon.com/authors/creaticca-creative-agency"
+        title="Creaticca Creative Agency"
+        >Creaticca Creative Agency</a
+      >
+      ,
+      <a
+        href="https://www.flaticon.com/authors/pixel-perfect"
+        title="Pixel perfect"
+        >Pixel perfect</a
+      >
+      from
+      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+    </div>
+  </div>
+</div>
+
+<!-- <div
     class="embedsocial-instagram"
     data-ref="a06c69848c55f1e52364a4f5614b3ad5cd956246"
   ></div> -->
-</div>
