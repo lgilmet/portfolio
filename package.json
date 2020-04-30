@@ -23,7 +23,7 @@
     "boostrap": "^2.0.0",
     "bootstrap": "^4.4.1",
     "ghpages": "0.0.10",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ngx-bootstrap": "^5.3.2",
     "ngx-page-scroll": "^7.0.0",
     "ngx-page-scroll-core": "^7.0.0",
